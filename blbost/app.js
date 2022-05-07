@@ -30,11 +30,11 @@ var output = document.getElementById('moai');
 var btn = document.getElementById('bttn');
 
 var m = document.getElementById('Area');
-
+/*
 m.addEventListener('suspend', function(){
     output.innerHTML = "";
 })
-
+*/
 btn.addEventListener('click', function() {
     var userInputName = document.getElementById('UsLogIn').value;
     var userInputPass = document.getElementById('UsPass').value;
