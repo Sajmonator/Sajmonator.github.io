@@ -46,13 +46,13 @@ btn.addEventListener('click', function() {
         output.innerHTML = `Missing Name or Password.`
         return;
     }else if(((userInputName == firstName) && (userInputPass == firstPassword))){
-        output.innerHTML = `cs usere`
+        output.innerHTML = `cs usere 🗿`
         return;
     }else if(((userInputName == AdminName) && (userInputPass == AdminPass))){
-        output.innerHTML = `cs adminusi`;
+        output.innerHTML = `welcome back admin 🗿`;
 
     } else {
-        output.innerHTML = `hhhh zdechni`;
+        output.innerHTML = `Wrong Name or Password\nhhhh zdechni`;
         return;
     }
 });
