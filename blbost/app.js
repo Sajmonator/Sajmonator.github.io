@@ -1,7 +1,7 @@
 var output = document.getElementById('moai');
 var btn = document.getElementById('bttn');
 let firstName = 'KKK'; let firstPassword = 'KKK'; //user name, pass
-let AdminPass = "lll"; let AdminName = "lll";//admin name, pass
+let AdminName = "lll";let AdminPass = "lll"; //admin name, pass
 
 
 btn.addEventListener('click', function() {
