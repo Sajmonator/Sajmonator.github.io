@@ -45,15 +45,19 @@ btn.addEventListener('click', function() {
     
     if(!userInputName || !userInputPass){
         output.innerHTML = `Missing Name or Password.`
+        console.log("missing n/p")
         return;
     }else if(((userInputName == firstName) && (userInputPass == firstPassword))){
         output.innerHTML = `cs usere 🗿`
+        console.log("cs usere")
         return;
     }else if(((userInputName == AdminName) && (userInputPass == AdminPass))){
         output.innerHTML = `welcome back admin 🗿`;
-
+        console.log("admin 😎")
+        return;
     } else {
         output.innerHTML = `Wrong Name or Password\nhhhh zdechni`;
+        console.log("die")
         return;
     }
 });
