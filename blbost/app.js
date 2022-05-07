@@ -1,7 +1,7 @@
 var output = document.getElementById('moai');
 var btn = document.getElementById('bttn');
 let firstName = 'KKK'; let firstPassword = 'KKK'; //user name, pass
-let AdminName = "lll";let AdminPass = "lll"; //admin name, pass
+let adminName = "lll"; let adminPass = "lll"; //admin name, pass
 
 
 btn.addEventListener('click', function() {
@@ -11,7 +11,7 @@ btn.addEventListener('click', function() {
         output.innerHTML = `Missing Name or Password.`
         return;
     }
-    if((userInputName != (firstName || AdminName)) && (userInputPass != (firstPassword || AdminPass))){
+    if((userInputName != (firstName || adminName)) && (userInputPass != (firstPassword || adminPass))){
         output.innerHTML = `Wrong Name or Password`
         return;
     }
@@ -19,8 +19,8 @@ btn.addEventListener('click', function() {
         output.innerHTML =`cs usere 🗿`
         return;
     }
-    if((userInputName == AdminName) && (userInputPass == AdminPass)){
+    if((userInputName == adminName) && (userInputPass == adminPass)){
         output.innerHTML =`welcome back admin 🗿`
-        return;
+        
     }
 });
