@@ -17,7 +17,7 @@ btn.addEventListener('click', function() {
     }
     if((userInputName == firstName) && (userInputPass == firstPassword)){
         output.innerHTML =`cs usere 🗿`
-        return;
+        //return;
     }
     if((userInputName == adminName) && (userInputPass == adminPass)){
         output.innerHTML =`welcome back admin 🗿`
