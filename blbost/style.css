@@ -1,0 +1,27 @@
+.area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{    font-family: Arial;
+    font-size: 32px;}
+.btnC{
+    position: absolute;
+    left: 110%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+input{
+    font-family: Arial;
+    font-size: 32px;
+}
+.Pass{
+    font-family: Arial;
+    font-size: 32px;
+}
+.Name{
+    font-family: Arial;
+    font-size: 32px;
+}
