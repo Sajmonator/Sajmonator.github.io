@@ -1,8 +1,8 @@
 .pole{
     display: inline-block;
     position: relative;
-    top: 30em;
-    left: 5em;
+    top: 20em;
+    left: 0.5em;
 }
   @keyframes example {
     0%   {background-color:yellow; left:200px; top:200px;}
