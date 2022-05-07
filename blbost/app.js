@@ -16,11 +16,11 @@ btn.addEventListener('click', function() {
         return;
     }
     if((userInputName == firstName) && (userInputPass == firstPassword)){
-        output.innerHTML =`cs usere`
+        output.innerHTML =`cs usere 🗿`
         return;
     }
     if((userInputName == AdminName) && (userInputPass == AdminPass)){
-        output.innerHTML =`welcome back admin`
+        output.innerHTML =`welcome back admin 🗿`
         return;
     }
 });
