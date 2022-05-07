@@ -28,7 +28,7 @@ btn.addEventListener('click', function() {
 
 var output = document.getElementById('moai');
 var btn = document.getElementById('bttn');
-let firstName = 'KKK'; let firstPassword = 'KKK'; //user name, pass
+
 var m = document.getElementById('Area');
 
 m.addEventListener('suspend', function(){
@@ -38,6 +38,7 @@ m.addEventListener('suspend', function(){
 btn.addEventListener('click', function() {
     var userInputName = document.getElementById('UsLogIn').value;
     var userInputPass = document.getElementById('UsPass').value;
+    let firstName = 'KKK'; let firstPassword = 'KKK'; //user name, pass
     let AdminName = "jjj"; 
     let AdminPass = "jjj";//admin name, pass
     
