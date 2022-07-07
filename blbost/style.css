@@ -25,3 +25,6 @@ input{
     font-family: Arial;
     font-size: 32px;
 }
+body{
+cursor: wait;
+}
