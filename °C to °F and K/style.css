@@ -1,0 +1,19 @@
+html, body{
+    border-color: #736b5e;
+    color: #e8e6e3;
+}
+html, body{
+    background-color: #181a1b;
+}
+* {
+    scrollbar-color: #454a4d #202324;
+}
+html:root{
+    --darkreader-neutral-background: #131516;
+    --darkreader-neutral-text: #d8d4cf;
+    --darkreader-selection-background: #004daa;
+    --darkreader-selection-text: #e8e6e3;
+}
+html{
+    color-scheme: dark !important;
+}
