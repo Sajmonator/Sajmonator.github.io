@@ -1,72 +1,69 @@
 html{
-    --big: 40px;
-    font-weight: lighter;
+  --big: 40px;
+  font-weight: lighter;
 }
 .mainbody{
-
-    color: white;
-    font-size: 38px;
-    font-family: Helvetica;
-  
+  color: white;
+  font-size: 38px;
+  font-family: Helvetica;
 }
 .czrf{
-    width: var(--big);
-    height: var(--big);
+  width: var(--big);
+  height: var(--big);
 
 }
 h1{
     font-weight: lighter;
 }
 body{
-    font-family: Arial;
-    font-weight: lighter;
-    opacity: 0.9;
-    padding: 40px 0;
-    text-align: center;
-    background-color: #244E30;
-    color: #fff;
+  font-family: Arial;
+  font-weight: lighter;
+  opacity: 0.9;
+  padding: 40px 0;
+  text-align: center;
+  background-color: #244E30;
+  color: #fff;
 }
 
 @keyframes blikani {
     50% {opacity: 1;}
-  }
-  .flat{
-    opacity: 0;
-    display: inline;
-    animation-name: blikani;
-    animation: blikani 1s step-end infinite;
-  }
+}
+.flat{
+  opacity: 0;
+  display: inline;
+  animation-name: blikani;
+  animation: blikani 1s step-end infinite;
+}
 .flat:hover{
   cursor: default;
 }
-  .head{
-    top: 0;
-    left: 0;
-    padding: 0%;
-    
-    position: fixed;
-    background-color: #002201;
-    height: 100vh;
-    width: 120px;
-    float: left;
-  }
-  ul{
-    margin-top: 10;
-    border: 0;
-    padding: 70px 0;
-    text-align: center;
-    color: #505f9c;
-  }
-  .sidebar{
-    font-weight: bold;
-    color: inherit;
-    text-decoration: none;
-  }
-  .sidebar:hover {
-    font-size: 24px;
-    color:#00A0C6; 
-    text-decoration:none; 
-    cursor:pointer;  
+.head{
+  top: 0;
+  left: 0;
+  padding: 0%;
+  position: fixed;
+  background-color: #002201;
+  height: 100%;
+  width: 120px;
+  float: left;
+}
+ul{
+  margin-top: 10;
+  border: 0;
+  padding: 70px 0;
+  text-align: center;
+  color: #505f9c;
+}
+.sidebar{    
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+}
+.sidebar:hover {
+  font-size: 24px;
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
 }
 .contacts{
   font-size: 30px;
@@ -86,9 +83,30 @@ color: #6562ff;
     text-decoration:none; 
     cursor:pointer;  
 }
-.sidebbr{
+.sidebbr{  
   all: unset;
 }
-.sidebbr:active{
-  color: green;
+.sidebbr:active {  
+color: green;
+}
+.welcome{
+  display: none;
+  
+}
+@media screen and (max-width: 1000px) {
+  .welcome {
+      clear: both;
+      display: block;
+      float: left;
+      margin: 10px auto 5px 50px;
+      width: 28%;
+      
+  }
+  .head,.mainbody{
+    display: none;
+  }
+}
+.home{
+  font-size: 24px;
+  color: #6462ee;
 }
