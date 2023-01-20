@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magic 8 ball</title>
+</head>
+<body>
+    <div class="body">
+    <p class="says">The magic 8 ball says:</p>
+    <p class="bol" id="text"></p><br>
+    <p class="button"><button class="btn" id="btn" >Click me</button></p>
+</div>
+</body>
+<style>
+    body{
+        background-color: rgb(55, 47, 79);
+        color: white;
+    }
+    .says{
+        margin-top: 0% !important;
+        margin-top: 0% !important;
+    }
+    .body{
+        margin-top: 2.1%;
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .bol{
+        background-image: url("./Magic_eight_ball.png");
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        line-height: 300px;
+        color: aqua;
+    }
+    p{
+        margin-top: 1%;
+        font-size: 18px;
+        font-family: Geneva !important;
+        text-align: center;
+    }
+    .button{
+        margin-top: 7%;
+    }
+.btn{
+    background-color: transparent;
+    font-family: Geneva;
+    font-size: 22px;
+
+    padding: 0;
+    border-style:  none;
+    border-width: 0;
+    border-color: transparent;
+    color: white;
+
+}</style>
+<script src="8ball.js"></script>
+</html>
