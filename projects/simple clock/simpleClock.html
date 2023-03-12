@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple clock</title>
+  </head>
+  <body
+    style="
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      height: 100vh;
+      background-color: #000;
+      color: #ffffff;
+      font-family: 'Helvetica';
+    "
+  >
+    <div
+      id="celek"
+      class="clock"
+      style="font-size: 32px; user-select: none"
+    ></div>
+  </body>
+  <script>
+    setInterval(() => {
+      let celek = document.getElementById(`celek`);
+      let date = new Date();
+      let seconds = date.getSeconds();
+      let minute = date.getMinutes();
+      let hours = date.getHours();
+      let secString = seconds.toString();
+      let minString = minute.toString();
+      let hourString = hours.toString();
+      seconds < 10 ? (secString = `0${secString}`) : seconds;
+      minute < 10 ? (minString = `0${minString}`) : minute;
+      hours < 10 ? (hourString = `0${hourString}`) : hours;
+      celek.innerHTML = `${hourString}:${minString}:${secString}`;
+    });
+  </script>
+</html>

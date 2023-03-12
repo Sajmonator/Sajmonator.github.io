@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cookie Clicker from wish</title>
+</head>
+<body>
+    <h1>Cookie Clicker by Sajmonator</h1>
+    <h2><div id="player">Name</div>'s bakery</h2>
+    <h3>Cookies: <p id="Cookies">0</p></h3>
+    <h3>Cursors: <p id="CoCurs">0</p></h3>
+    <h3>Bakers: <p id="CoBak">0</p></h3>
+    <h3>Cookie Factories: <p id="CoFact">0</p></h3>
+
+<button class="cookieButton" onclick="makeCookie()" type="button" class="makeCookie" id="makeCookie">Make Cookies</button><div class="buttons">
+<button class="cursorButton" onclick="createCursor()"><p class="cursorText">Create Cursor </p><p id="CoCursPrice">0</p></button><br>
+<button class="bakerButton" onclick="hireBaker()"><p class="bakerText">Hire Baker </p><p id="CoBakPrice">0</p></button><br>
+<button class="factButton" onclick="buildFactory()"><p class="factoryText">Buy Cookie Factory </p><p id="CoFactPrice">0</p></button></div>
+
+<button onclick="time()" id="time" style="visibility: hidden;">Hajimete</button> <br>
+<div class="playTime">Play time is: <p id="times">0</p>s</div>
+
+    <script src="./firstApp.js"></script>
+</body>
+</html>
