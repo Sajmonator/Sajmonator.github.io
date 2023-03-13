@@ -10,7 +10,6 @@ html{
 .czrf{
   width: var(--big);
   height: var(--big);
-
 }
 h1{
     font-weight: lighter;
@@ -24,7 +23,6 @@ body{
   background-color: #244E30;
   color: #fff;
 }
-
 @keyframes blikani {
     50% {opacity: 1;}
 }
@@ -45,27 +43,43 @@ body{
 .flat:hover{
   cursor: default;
 }
-.head{
-  top: 0;
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+.head {
+	display: table;
+	margin: 0 auto;
+  bottom: 0;
   left: 0;
   padding: 0%;
   position: fixed;
   background-color: #002201;
-  height: 100%;
-  width: 120px;
-  float: left;
+  height: 6%;
+  width: 100%;
+  text-align: center;
 }
-ul{
-  margin-top: 10;
+ul {
+	min-width: 696px;
+	list-style: none;
   border: 0;
-  padding: 70px 0;
+  padding: 15px 0;
   text-align: center;
   color: #505f9c;
+  margin-bottom: 7px;
 }
+	li {
+		display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #505f9c;
+	}
 .sidebar{    
   font-weight: bold;
+  display: inline;
   color: inherit;
   text-decoration: none;
+  font-size: 20px;
 }
 .sidebar:hover {
   font-size: 24px;
@@ -78,7 +92,6 @@ ul{
 }
 .discord{
   color: #fff;
-  
 }
 .links{
   text-decoration: none !important;
@@ -99,7 +112,6 @@ color: green;
 }
 .welcome{
   display: none;
-  
 }
 @media screen and (max-width: 900px) {
   .welcome {
@@ -108,13 +120,15 @@ color: green;
       float: left;
       margin: 10px auto 5px 50px;
       width: 28%;
-      
   }
   .head,.mainbody{
     display: none;
   }
 }
 .home{
-  font-size: 24px;
+  font-size: 22px;
   color: #6462ee;
+}
+.home:hover{
+  font-size: 26px;
 }
