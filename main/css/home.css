@@ -20,7 +20,7 @@ body{
   opacity: 0.9;
   padding: 40px 0;
   text-align: center;
-  background-color: #244E30;
+  background-color: #1F2833;
   color: #fff;
 }
 @keyframes blikani {
@@ -54,7 +54,7 @@ body{
   left: 0;
   padding: 0%;
   position: fixed;
-  background-color: #002201;
+  background-color: #0B0C10;
   height: 6%;
   width: 100%;
   text-align: center;
@@ -83,7 +83,7 @@ ul {
 }
 .sidebar:hover {
   font-size: 24px;
-  color:#00A0C6; 
+  color:#66FCF1; 
   text-decoration:none; 
   cursor:pointer;  
 }
