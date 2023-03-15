@@ -23,10 +23,10 @@
       id="celek"
       class="clock"
       style="font-size: 32px; user-select: none"
-    ></div>
+    >00:00:00</div>
   </body>
   <script>
-    setInterval(() => {
+    function cas() {
       let celek = document.getElementById(`celek`);
       let date = new Date();
       let seconds = date.getSeconds();
@@ -39,6 +39,10 @@
       minute < 10 ? (minString = `0${minString}`) : minute;
       hours < 10 ? (hourString = `0${hourString}`) : hours;
       celek.innerHTML = `${hourString}:${minString}:${secString}`;
-    });
+    }
+    window.onload = () =>{
+      cas()
+    }
+    setInterval(cas, 500);
   </script>
 </html>
