@@ -1,6 +1,7 @@
 html{
   --big: 40px;
   font-weight: lighter;
+  background-color: #1F2833;
 }
 .mainbody{
   color: white;
