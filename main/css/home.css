@@ -232,4 +232,7 @@ color: green;
     height: 20px;
     width: auto;
   }
+  p{
+    margin: 5%;
+  }
 }
