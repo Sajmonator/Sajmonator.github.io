@@ -36,16 +36,17 @@ body{
 }
 .flat{
   opacity: 0;
+  color: hsl(0, 0%, 85%);
   display: inline;
   animation-name: blikani;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: step-end;
 }
-.flat:nth-child(2){
+.flat:nth-child(3){
   animation-delay: 200ms;
 }
-.flat:nth-child(3){
+.flat:nth-child(4){
   animation-delay: 400ms;
 }
 .flat:hover{
@@ -162,4 +163,32 @@ color: green;
 .discord::before {
   content: url(../res/Discord-logo-blurple_40.png);
   margin-right: 0.5em;
+}
+
+.whoami{
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.lineargr{
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  background-image: linear-gradient(to left top, #a4004f, #a93277, #a6519c, #9d6eba, #9188d2, #829be3, #74aef0, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+  animation: rotac 7s alternate infinite;
+}
+
+@keyframes rotac {
+  0%{
+    filter: hue-rotate(279deg);
+  }
+  50%{
+    filter: hue-rotate(197deg);
+  }
+  100%{
+    filter: hue-rotate(12deg);
+  }
 }
