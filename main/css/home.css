@@ -122,7 +122,7 @@ color: #6562ff;
 .sidebbr:active {  
 color: green;
 }
-.welcome{
+/* .welcome{
   display: none;
 }
 @media screen and (max-width: 900px) {
@@ -136,7 +136,7 @@ color: green;
   .head,.mainbody{
     display: none;
   }
-}
+} */
 .home{
   font-size: 22px;
   color: #6462ee;
@@ -190,5 +190,46 @@ color: green;
   }
   100%{
     filter: hue-rotate(12deg);
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  * {
+    font-size: 20px;
+  }
+  .whoami{
+    font-size: 26px;
+  }
+  .lineargr{
+    font-size: 30px;
+  }
+  .head{
+    padding-top: 5%;
+    height: 20%;
+  }
+  .head ul{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  nav li{
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+  }
+  .sidebar{
+    flex: 100%;
+  }
+  .czrf{
+    height: 20px;
+    width: auto;
   }
 }
