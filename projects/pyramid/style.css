@@ -1,0 +1,27 @@
+.container {
+    margin-top: 5vh;
+    font-family: arial;
+    font-size: 24px;
+    width: 100vw;
+    height: 75vh;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+
+  }
+
+  .reload{
+    margin-top: 1vh;
+    height: 6.5vh;
+    width: 6.5vw;
+    border-radius: 999em 999em 999em 999em;
+    background-color: orange;
+    font-weight: bold;
+  }
+  .reload:hover{
+    background-color: rgb(255, 198, 93);
+  }
