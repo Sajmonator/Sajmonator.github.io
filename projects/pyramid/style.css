@@ -25,3 +25,51 @@
   .reload:hover{
     background-color: rgb(255, 198, 93);
   }
+
+
+  @media screen and (max-width: 1400px) {
+    .reload{
+      width: 12vw;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .reload{
+      width: 30vw;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .reload{
+      width: 50vw;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .reload{
+      width: 15vw;
+    }
+  }
+
+
+
+
+  @media screen and (max-height: 1400px) {
+    .reload{
+      height: 10vh;
+    }
+  }
+  @media screen and (max-height: 500px) {
+    .reload{
+      height: 14vh;
+    }
+  }
+
+  @media screen and (max-height: 700px) {
+    .reload{
+      height: 12vh;
+    }
+  }
+  @media screen and (max-height: 1000px) {
+    .reload{
+      height: 11vh;
+    }
+  }
